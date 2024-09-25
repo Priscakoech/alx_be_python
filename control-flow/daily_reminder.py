@@ -12,4 +12,6 @@ match priority:
         reminder = f"Your task '{task}' is of unkwown priority."
 if time_inbound == "yes":
     reminder += " This task requires immediate attention today!"
+else:
+    reminder += " Consider completing it when you have free time."
 print(reminder)
