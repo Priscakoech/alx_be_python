@@ -1,4 +1,4 @@
-task = input("enter your task: ")
+task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 time_inbound = input("Is it time-inbound? (yes/no): ").lower()
 match priority:
