@@ -2,7 +2,7 @@ def safe_divide(numerator, denominator):
     try:
         num = float(numerator)
         denom = float(denominator)
-        if denom == 0:
+        if denominator == 0:
             return "Error: Cannot divided by zero."
         return f"The result of the division is {num / denom}"
     except ValueError:
